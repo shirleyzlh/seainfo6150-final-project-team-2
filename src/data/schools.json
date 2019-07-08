@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Programming and Development",
+    "slug": "school-of-programming"
+  },
+  {
+    "name": "Artificial Intelligence",
+    "slug": "school-of-ai"
+  },
+  {
+    "name": "Cloud Computing",
+    "slug": "school-of-cloud-computing"
+  },
+  {
+    "name": "Data Science",
+    "slug": "school-of-data-science"
+  },
+  {
+    "name": "Business",
+    "slug": "school-of-business"
+  },
+  {
+    "name": "Autonomous Systems",
+    "slug": "school-of-autonomous-systems"
+  }
+]

@@ -1,0 +1,243 @@
+[
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd088/nd-card.png",
+    "level": "Intermediate",
+    "schools": ["school-of-ai", "school-of-business"],
+    "short_summary": "Learn to develop AI products that deliver business value. Build skills that help you compete in the new AI-powered world.",
+    "slug": "ai-product-manager-nanodegree--nd088",
+    "syllabus_pdf_urls": [
+      "https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/AI+Product+Manager+Nanodegree+Program+Syllabus.pdf"
+    ],
+    "title": "AI Product Manager"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd313/nd-card.png",
+    "level": "Advanced",
+    "schools": ["school-of-autonomous-systems"],
+    "short_summary": "Learn to fuse lidar point clouds, radar signatures, and camera images using Kalman Filters to perceive the environment and detect and track vehicles and pedestrians over time.",
+    "slug": "sensor-fusion-engineer-nanodegree--nd313",
+    "syllabus_pdf_urls": [
+      "https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Sensor+Fusion+Engineer+Nanodegree+Syllabus.pdf"
+    ],
+    "title": "Sensor Fusion Engineer"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd197/nd-card.png",
+    "level": "Beginner",
+    "schools": ["school-of-business", "school-of-data-science"],
+    "short_summary": "Combine data, visuals, and narrative to tell impactful stories and make data-driven decisions.",
+    "slug": "data-visualization-nanodegree--nd197",
+    "syllabus_pdf_urls": [
+      "https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Data+Visualization+Nanodegree+Program+Syllabus"
+    ],
+    "title": "Data Visualization"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd9990/nd-card.jpg",
+    "level": "Intermediate ",
+    "schools": ["school-of-cloud-computing", "school-of-programming"],
+    "slug": "cloud-developer-nanodegree--nd9990",
+    "syllabus_pdf_urls": [
+      "https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Cloud+Developer+Nanodegree+program+Syllabus.pdf"
+    ],
+    "title": "Cloud Developer"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd9991/nd-card.jpg",
+    "level": "Intermediate ",
+    "schools": ["school-of-cloud-computing", "school-of-programming"],
+    "short_summary": "Companies are looking for talented DevOps engineers to remain competitive in this agile world. Enroll now to operationalize infrastructure at scale and deliver applications and services at high velocity, an essential skill for advancing your career.",
+    "slug": "cloud-dev-ops-nanodegree--nd9991",
+    "syllabus_pdf_urls": [
+      "https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Cloud+DevOps+Nanodegree+program+Syllabus.pdf"
+    ],
+    "title": "Cloud DevOps Engineer"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd229/nd-card.jpg",
+    "level": "Beginner",
+    "schools": ["school-of-ai"],
+    "short_summary": "Build a solid foundation in Supervised, Unsupervised, and Deep Learning. Then, use these skills to test and deploy machine learning models in a production environment.",
+    "slug": "machine-learning-engineer-nanodegree--nd009t",
+    "syllabus_pdf_urls": [
+      "https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/machine-learning-engineer-nanodegree-program-syllabus.pdf"
+    ],
+    "title": "Introduction to Machine Learning"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd213/nd-card.jpg",
+    "level": "Intermediate",
+    "schools": ["school-of-autonomous-systems", "school-of-programming"],
+    "short_summary": "Get hands-on experience by building five real-world projects.",
+    "slug": "c-plus-plus-nanodegree--nd213",
+    "syllabus_pdf_urls": [
+      "https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Data%2BStructures%2Band%2BAlgorithms%2BSyllabus.pdf"
+    ],
+    "title": "C++"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd256/nd-card.jpg",
+    "level": "Intermediate",
+    "schools": [
+      "school-of-ai",
+      "school-of-data-science",
+      "school-of-autonomous-systems",
+      "school-of-programming"
+    ],
+    "short_summary": "Get hands-on practice with over 100 data structures and algorithm exercises and guidance from a dedicated mentor to help prepare you for interviews and on-the-job scenarios.",
+    "slug": "data-structures-and-algorithms-nanodegree--nd256",
+    "syllabus_pdf_urls": [
+      "https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Data%2BStructures%2Band%2BAlgorithms%2BSyllabus.pdf"
+    ],
+    "title": "Data Structures and Algorithms"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd118/nd-card.jpg",
+    "level": "beginner",
+    "schools": ["school-of-data-science"],
+    "short_summary": "Prepare for a data science career by learning the fundamental data programming tools: Python or R, SQL, command line, and git. Choose to enroll in either the Python or R track.",
+    "slug": "programming-for-data-science-nanodegree--nd104",
+    "syllabus_pdf_urls": [
+      "https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Programming+for+Data+Science+with+R+Syllabus.pdf"
+    ],
+    "title": "Programming for Data Science"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd027/nd-card.jpg",
+    "level": "intermediate",
+    "schools": ["school-of-data-science", "school-of-programming"],
+    "short_summary": "Data Engineering is the foundation for the new world of Big Data. Enroll now to build production-ready data infrastructure, an essential skill for advancing your data career.",
+    "slug": "data-engineer-nanodegree--nd027",
+    "syllabus_pdf_urls": [
+      "https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Data+Engineering+Nanodegree+Program+Syllabus.pdf"
+    ],
+    "title": "Data Engineer"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd028/nd_card.jpg",
+    "level": "beginner",
+    "schools": ["school-of-business", "school-of-data-science"],
+    "short_summary": "Gain foundational data skills applicable to marketing. Collect and analyze data, model marketing scenarios, and communicate your findings with Excel, Tableau, Google Analytics, and Data Studios.",
+    "slug": "marketing-analytics-nanodegree--nd028",
+    "syllabus_pdf_urls": [
+      "https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Marketing+Analytics+Nanodegree+Program+Syllabus.pdf"
+    ],
+    "title": "Marketing Analytics"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd000/nd-card.jpg",
+    "level": "beginner",
+    "schools": ["school-of-programming"],
+    "short_summary": "Udacity's Intro to Programming is your first step towards careers in Web and App Development, Machine Learning, Data Science, AI, and more! This program is perfect for beginners.",
+    "slug": "intro-to-programming-nanodegree--nd000",
+    "syllabus_pdf_urls": null,
+    "title": "Introduction to Programming"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd001/nd-card.jpg",
+    "level": "intermediate",
+    "schools": ["school-of-programming"],
+    "short_summary": "In the Front End Developer Nanodegree program, you will complete five projects and build a resume-worthy portfolio.",
+    "slug": "front-end-web-developer-nanodegree--nd001",
+    "syllabus_pdf_urls": null,
+    "title": "Front End Web Developer"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd002/nd-card.jpg",
+    "level": "intermediate",
+    "schools": ["school-of-data-science"],
+    "short_summary": "Use Python, SQL, and statistics to uncover insights, communicate critical findings, and create data-driven solutions.",
+    "slug": "data-analyst-nanodegree--nd002",
+    "syllabus_pdf_urls": null,
+    "title": "Data Analyst"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd003/nd-card.jpg",
+    "level": "intermediate",
+    "schools": ["school-of-programming"],
+    "short_summary": "Master the Swift programming language, and create a portfolio of iOS apps for iPhone and iPad to showcase your skills!",
+    "slug": "ios-developer-nanodegree--nd003",
+    "syllabus_pdf_urls": null,
+    "title": "IOS Developer"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd004/nd-card.jpg",
+    "level": "intermediate",
+    "schools": ["school-of-programming"],
+    "short_summary": "In this program, you’ll prepare for a job as a Full Stack Web Developer, and learn to create complex server-side web applications that use powerful relational databases to persistently store data.",
+    "slug": "full-stack-web-developer-nanodegree--nd004",
+    "syllabus_pdf_urls": null,
+    "title": "Full Stack Web Developer"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd008/nd-card.jpg",
+    "level": "intermediate",
+    "schools": ["school-of-data-science", "school-of-business"],
+    "short_summary": "Learn to apply predictive analytics and business intelligence to solve real-world business problems.",
+    "slug": "predictive-analytics-for-business-nanodegree--nd008",
+    "syllabus_pdf_urls": null,
+    "title": "Predictive Analytics for Business"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd002/nd-card.jpg",
+    "level": "beginner",
+    "schools": ["school-of-business"],
+    "short_summary": "Predictive analytics is the practice of determining patterns from data to predict future outcomes and trends. Across industries, it enables high-value solutions to important business problems.",
+    "slug": "business-analyst-nanodegree--nd008-ent",
+    "syllabus_pdf_urls": null,
+    "title": "Business Analyst for Enterprise"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd004/nd-card.jpg",
+    "level": "beginner",
+    "schools": ["school-of-business"],
+    "short_summary": "Predictive analytics is the practice of determining patterns from data to predict future outcomes and trends. Across industries, it enables high-value solutions to important business problems.",
+    "slug": "business-analyst",
+    "syllabus_pdf_urls": null,
+    "title": "Business Analyst"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd013/nd-card.jpg",
+    "level": "advanced",
+    "schools": ["school-of-autonomous-systems"],
+    "short_summary": "Self-driving cars are set to revolutionize the way we live. This is transformational technology, on the cutting-edge of robotics, machine learning, software engineering, and mechanical engineering. In this program, you’ll learn the skills and techniques used by self-driving car teams at the most advanced technology companies in the world.",
+    "slug": "self-driving-car-engineer-nanodegree--nd013",
+    "title": "Self Driving Car Engineer"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd017/nd-card.jpg",
+    "level": "intermediate",
+    "schools": [],
+    "short_summary": "Master the latest tools and technologies, and put your tech skills to work in the exciting field of VR! Learn from industry experts like Google, Unity, and HTC, and become a Virtual Reality Developer.",
+    "slug": "vr-developer-nanodegree--nd017",
+    "syllabus_pdf_urls": null,
+    "title": "VR Developer"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd018/nd-card.jpg",
+    "level": "beginner",
+    "schools": ["school-of-business"],
+    "short_summary": "Gain real-world experience running live campaigns as you learn from top experts in the field. Launch your career with a 360-degree understanding of digital marketing.",
+    "slug": "digital-marketing-nanodegree--nd018",
+    "syllabus_pdf_urls": null,
+    "title": "Digital Marketing"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd019/nd-card.jpg",
+    "level": "intermediate",
+    "schools": ["school-of-programming"],
+    "short_summary": "React is completely transforming Front-End Development. Master this powerful UI library from Facebook with Udacity.",
+    "slug": "react-nanodegree--nd019",
+    "syllabus_pdf_urls": null,
+    "title": "React"
+  },
+  {
+    "image": "https://d20vrrgs8k4bvw.cloudfront.net/images/degrees/nd024/nd-card.jpg",
+    "level": "advanced",
+    "schools": ["school-of-programming"],
+    "short_summary": "Prepare for Google's Mobile Web Specialist certification with courses from Google.",
+    "slug": "mobile-web-specialist-nanodegree--nd024",
+    "syllabus_pdf_urls": null,
+    "title": "Mobile Web Specialist"
+  }
+]
