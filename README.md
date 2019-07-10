@@ -21,6 +21,7 @@ Link to final project assignment: https://github.com/aprilbingham-neu/seainfo615
 6. Open command line/terminal window and use these commands in a directory where you have admin permissions
 ```
 git clone [copied link]
+cd [name of team directory you just cloned, will be seainfo6150-final-project-team-#]
 git remote add upstream [url to your team repo from above]
 ```
 
