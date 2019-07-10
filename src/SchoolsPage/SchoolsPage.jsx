@@ -6,6 +6,7 @@ const SchoolsPage = ({ degrees, schools }) => {
   return (
     <div>
       This is the Schools page 
+      <hr />
       <Schools degrees={degrees} schools={schools} />
     </div>
   )

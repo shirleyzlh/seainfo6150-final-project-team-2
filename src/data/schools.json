@@ -1,26 +1,32 @@
 [
   {
     "name": "Programming and Development",
+    "short_summary": "The School of Programming and Development has as its focus the training of students in various programming languages and frameworks.",
     "slug": "school-of-programming"
   },
   {
     "name": "Artificial Intelligence",
+    "short_summary": "The next generation of AI, machine learning and applied generative machines awaits you in the School of Artificial Intelligence!",
     "slug": "school-of-ai"
   },
   {
     "name": "Cloud Computing",
+    "short_summary": "Prepare for the future of distributed networking solutions with a degree from the School of Cloud Computing.",
     "slug": "school-of-cloud-computing"
   },
   {
     "name": "Data Science",
+    "short_summary": "Today's world is awash in collected data and the School of Data Science is training the next generation of analysts who will help make sense of it all!",
     "slug": "school-of-data-science"
   },
   {
     "name": "Business",
+    "short_summary": "The School of Business gives students a solid foundation in the principles of running a successful business.",
     "slug": "school-of-business"
   },
   {
     "name": "Autonomous Systems",
+    "short_summary": "The School of Autonomous Systems is creating tomorrow's solutions in the fields of automated manufacturing and decoupled distribution chains.",
     "slug": "school-of-autonomous-systems"
   }
 ]

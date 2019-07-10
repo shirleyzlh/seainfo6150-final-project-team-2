@@ -9,7 +9,7 @@ const Degrees = ({ degrees }) => {
         return (
           <div key={`${degree.slug}`}>
             <img src={degree.image} alt={degree.title} />
-            <Link to={`/degree/${degree.slug}`}>Degree: {degree.title}</Link>
+            Degree display attributes
           </div>
         );
       })}

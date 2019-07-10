@@ -27,7 +27,8 @@ function App() {
     <div className="App">
       <Router>
         <header>
-          <MainNav />
+          This is a page header that will persist on every page
+          <hr />
         </header>
         <main>
           <Switch>
@@ -52,6 +53,7 @@ function App() {
                       degree => degree.slug === match.params.slug
                     )[0]
                   }
+                  schools={schools}
                 />
               )}
             />
@@ -78,7 +80,10 @@ function App() {
             <Route component={ErrorPage} />
           </Switch>
         </main>
-        <footer />
+        <footer>
+          <hr />
+          This is a page footer that will persist on every page
+        </footer>
       </Router>
     </div>
   );

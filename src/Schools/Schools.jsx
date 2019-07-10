@@ -7,16 +7,16 @@ const Schools = ({ degrees, schools }) => {
   return (
     <div>
       {schools.map((school, index) => {
+        // thisSchoolsDegrees is an array of all the
+        // degrees offered by the school currently being
+        // iterated over
         const thisSchoolsDegrees = degrees.filter(degree =>
           degree.schools.includes(school.slug)
         );
+
         return (
           <div key={`${school.slug}`}>
-            School: {school.name}
-            <br />
-            Degrees:
-            <Degrees degrees={thisSchoolsDegrees} />
-            <hr />
+            Schools display attributes
           </div>
         );
       })}

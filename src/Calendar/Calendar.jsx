@@ -7,7 +7,7 @@ const Calendar = ({ dates }) => {
       {dates.map((date, index) => {
         return (
           <div key={`${date.date}-${index}`}>
-            Date: {date.date}, Description: {date.description}
+            Date display information
           </div>
         );
       })}

@@ -5,9 +5,10 @@ const EnrollForm = ({ onSubmit }) => {
   return (
     <form onSubmit={onSubmit}>
       This is the enrollment form 
-      <input type="text" name="foo" />
-      <input type="text" name="bar" />
-      <input type="text" name="baz" />
+
+      <div><input type="text" name="foo" /></div>
+      <div><input type="text" name="bar" /></div>
+      <div><input type="text" name="baz" /></div>
       <input type="submit" value="Submit enrollment" />
     </form>
   );

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 
 import Degrees from "../Degrees/Degrees";
+import DegreesSorterFilterer from "../DegreesSorterFilterer/DegreesSorterFilterer";
 
 class DegreesPage extends Component {
   constructor(props) {
@@ -49,8 +50,8 @@ class DegreesPage extends Component {
     }
 
     if (sortType !== "none") {
-      let toSort = this.props.degrees.slice();      
-      
+      let toSort = this.props.degrees.slice();
+
       let sorted;
       if (sortType === "AZ") {
         sorted = this.onSortAZ(toSort);
@@ -89,37 +90,12 @@ class DegreesPage extends Component {
     return (
       <div>
         This is the Degrees page
-        <section>
-          <header>Sort by:</header>
-          <select onChange={this.onSort}>
-            <option value="none">None</option>
-            <option value="AZ">A - Z</option>
-            <option value="ZA">Z - A</option>
-          </select>
-        </section>
-        <section>
-          <header>Filter by:</header>
-          <div>
-            <label htmlFor="level">By level</label>
-            <select name="level" id="level" onChange={this.onFilter}>
-              <option value="none">None</option>
-              <option value="beginner">Beginner</option>
-              <option value="intermediate">Intermediate</option>
-              <option value="advanced">Advanced</option>
-              <option value="mastery">Mastery</option>
-            </select>
-          </div>
-          <div>
-            <label htmlFor="school">By school</label>
-            <select name="school" id="school" onChange={this.onFilter}>
-              <option value="none">None</option>
 
-              {this.props.schools.map((school, index) => (
-                <option key={school.slug} value={school.slug}>{school.name}</option>
-              ))}
-            </select>
-          </div>
-        </section>
+        <DegreesSorterFilterer
+          onFilter={this.onFilter}
+          onSort={this.onSort}
+          schools={this.props.schools}
+        />
         <section>
           <header>Degrees</header>
           <Degrees degrees={displayDegrees} />
