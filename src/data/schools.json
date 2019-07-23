@@ -1,32 +1,37 @@
-[
-  {
-    "name": "Programming and Development",
-    "short_summary": "The School of Programming and Development has as its focus the training of students in various programming languages and frameworks.",
-    "slug": "school-of-programming"
-  },
-  {
-    "name": "Artificial Intelligence",
-    "short_summary": "The next generation of AI, machine learning and applied generative machines awaits you in the School of Artificial Intelligence!",
-    "slug": "school-of-ai"
-  },
-  {
-    "name": "Cloud Computing",
-    "short_summary": "Prepare for the future of distributed networking solutions with a degree from the School of Cloud Computing.",
-    "slug": "school-of-cloud-computing"
-  },
-  {
-    "name": "Data Science",
-    "short_summary": "Today's world is awash in collected data and the School of Data Science is training the next generation of analysts who will help make sense of it all!",
-    "slug": "school-of-data-science"
-  },
-  {
-    "name": "Business",
-    "short_summary": "The School of Business gives students a solid foundation in the principles of running a successful business.",
-    "slug": "school-of-business"
-  },
-  {
-    "name": "Autonomous Systems",
-    "short_summary": "The School of Autonomous Systems is creating tomorrow's solutions in the fields of automated manufacturing and decoupled distribution chains.",
-    "slug": "school-of-autonomous-systems"
-  }
+[{
+        "name": "Programming and Development",
+        "short_summary": "The School of Programming and Development has as its focus the training of students in various programming languages and frameworks.",
+        "slug": "school-of-programming",
+        "image": "https://news.mit.edu/sites/mit.edu.newsoffice/files/styles/news_article_image_top_slideshow/public/images/2014/MIT-Automating-Programming-01.jpg?itok=KG6sw0Aa"
+    },
+    {
+        "name": "Artificial Intelligence",
+        "short_summary": "The next generation of AI, machine learning and applied generative machines awaits you in the School of Artificial Intelligence!",
+        "slug": "school-of-ai",
+        "image": "https://media.threatpost.com/wp-content/uploads/sites/103/2018/08/23105243/Artificial-Intelligence.jpg"
+    },
+    {
+        "name": "Cloud Computing",
+        "short_summary": "Prepare for the future of distributed networking solutions with a degree from the School of Cloud Computing.",
+        "slug": "school-of-cloud-computing",
+        "image": "../.././images/computer5.jpeg"
+    },
+    {
+        "name": "Data Science",
+        "short_summary": "Today's world is awash in collected data and the School of Data Science is training the next generation of analysts who will help make sense of it all!",
+        "slug": "school-of-data-science",
+        "image": "../.././images/campus2.jpg"
+    },
+    {
+        "name": "Business",
+        "short_summary": "The School of Business gives students a solid foundation in the principles of running a successful business.",
+        "slug": "school-of-business",
+        "image": "../.././images/campus3.jpg"
+    },
+    {
+        "name": "Autonomous Systems",
+        "short_summary": "The School of Autonomous Systems is creating tomorrow's solutions in the fields of automated manufacturing and decoupled distribution chains.",
+        "slug": "school-of-autonomous-systems",
+        "image": "../.././images/computer3.jpg"
+    }
 ]

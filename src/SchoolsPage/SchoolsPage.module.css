@@ -1,0 +1,11 @@
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-family: Arial;
+    padding: 2.5rem;
+}
+
+.allPage {
+    background-color: #F7F7F7;
+}
