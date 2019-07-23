@@ -1,0 +1,35 @@
+.degreeItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+    margin: 0 10%;
+    padding: 0 5% 1% 5%;
+    width: 80%;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.degreeItem header {
+    width: 60%;
+}
+
+.degreeItem header h1 {
+    color: #CB0000;
+}
+
+.degreeItem header p {
+    font-size: 1.3rem;
+    line-height: normal;
+    text-align: justify;
+}
+
+.degreeItem img {
+    width: 35%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    max-height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    size: 50%;
+}

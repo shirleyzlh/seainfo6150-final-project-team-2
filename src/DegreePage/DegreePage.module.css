@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 50%;
+    min-width: 300px;
+    height: 300px;
+}
+
+.card {
+    width: 30%;
+    min-width: 200px;
+    height: 300px;
+    display: grid;
+    align-content: center;
+}
+
+.details {
+    margin: 1% 10%;
+}
+
+.enrollButton {
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 0;
+}

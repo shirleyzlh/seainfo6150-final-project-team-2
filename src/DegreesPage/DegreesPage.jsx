@@ -4,6 +4,8 @@ import PropTypes from "prop-types";
 import Degrees from "../Degrees/Degrees";
 import DegreesSorterFilterer from "../DegreesSorterFilterer/DegreesSorterFilterer";
 
+import styles from "./DegreesPage.module.css"
+
 class DegreesPage extends Component {
   constructor(props) {
     super(props);
@@ -12,28 +14,46 @@ class DegreesPage extends Component {
     };
   }
 
-  onFilter = e => {
-    let filterType;
-    if (e.target.id) {
-      filterType = e.target.id;
-    }
-    if (filterType) {
-      let filtered;
-      if (e.target.value === "none") {
-        this.setState({ updatedDegrees: null });
-      } else {
-        if (filterType === "school") {
-          filtered = this.onFilterSchool(e.target.value);
-        } else if (filterType === "level") {
-          filtered = this.onFilterLevel(e.target.value);
-        }
+  onFilter = ({ key, id }) => {
+    let filterType = id;
 
-        this.setState({
-          updatedDegrees: this.onSortAZ(filtered)
-        });
+    let filtered = this.onFilterLevel(key);
+    if (key === "none") {
+      this.setState({ updatedDegrees: null });
+    } else {
+      if (filterType === "school") {
+        filtered = this.onFilterSchool(key);
+      } else if (filterType === "level") {
+        filtered = this.onFilterLevel(key);
       }
+
+      this.setState({
+        updatedDegrees: this.onSortAZ(filtered)
+      });
     }
   };
+
+  onFilterByLevel = ({ key }) => {
+    let filtered = this.onFilterLevel(key);
+    if (key === "none") {
+      this.setState({ updatedDegrees: null });
+    } else {
+      this.setState({
+        updatedDegrees: this.onSortAZ(filtered)
+      });
+    }
+  }
+
+  onFilterBySchool = ({ key }) => {
+    let filtered = this.onFilterSchool(key);
+    if (key === "none") {
+      this.setState({ updatedDegrees: null });
+    } else {
+      this.setState({
+        updatedDegrees: this.onSortAZ(filtered)
+      });
+    }
+  }
 
   onFilterLevel = levels => {
     return this.props.degrees.filter(degree => levels.includes(degree.level));
@@ -43,11 +63,8 @@ class DegreesPage extends Component {
     return this.props.degrees.filter(degree => degree.schools.includes(school));
   };
 
-  onSort = e => {
-    let sortType;
-    if (e.target.value) {
-      sortType = e.target.value;
-    }
+  onSort = ({ key }) => {
+    let sortType = key;
 
     if (sortType !== "none") {
       let toSort = this.props.degrees.slice();
@@ -88,16 +105,15 @@ class DegreesPage extends Component {
     const displayDegrees = this.state.updatedDegrees || this.props.degrees;
 
     return (
-      <div>
-        This is the Degrees page
-
+      <div className={styles.allPage}>
+        <div className={styles.title}>Programs and Degrees</div>
         <DegreesSorterFilterer
-          onFilter={this.onFilter}
+          onFilterByLevel={this.onFilterByLevel}
+          onFilterBySchool={this.onFilterBySchool}
           onSort={this.onSort}
           schools={this.props.schools}
         />
         <section>
-          <header>Degrees</header>
           <Degrees degrees={displayDegrees} />
         </section>
       </div>

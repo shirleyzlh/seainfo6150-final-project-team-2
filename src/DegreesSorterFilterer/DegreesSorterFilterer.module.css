@@ -1,0 +1,12 @@
+.sorterFilterer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial;
+    background: black;
+    width: 80%;
+    font-size: 16px;
+    padding: 1%;
+}
