@@ -7,9 +7,11 @@ const EnrollConfirmation = ({ form }) => {
     const element = form.elements[i];
 
     displayElements.push(
-      <div key={`enroll-${i}`}>
-        {element.name}: {element.value}
-      </div>
+      <form>
+        <div key={`enroll-${i}`}>
+          {element.name}: {element.value}
+        </div>
+      </form>
     );
   }
 

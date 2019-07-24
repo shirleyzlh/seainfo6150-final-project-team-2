@@ -1,0 +1,78 @@
+form {
+    margin: 0 15%;
+    border: 1px solid #ddd;
+    display: grid;
+    padding: 0 12%;
+}
+
+.title {
+    text-align: center;
+    padding: 10% 0;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+}
+
+input {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin: 1% 0 5% 0;
+    height: 2em;
+}
+
+input::placeholder {
+    text-indent: 0.6rem;
+}
+
+select {
+    height: 2em;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin: 1% 0 5% 0;
+}
+
+.city {
+    width: 30%;
+    margin-right: 1%;
+}
+
+.state {
+    width: 30%;
+}
+
+.cityAndState {
+    display: flex;
+    margin-top: -5%;
+}
+
+.degrees {
+    height: 10em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type=date] {
+    width: 27%;
+}
+
+input[type=submit] {
+    width: 50%;
+    margin: 0 25% 10% 25%;
+    background-color: #4BAEFF;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 1px 1px 4px #dadada;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(14, 143, 248);
+}
